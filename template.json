@@ -1,0 +1,22 @@
+{
+    "title": "University of Amsterdam MSc Information Studies Thesis Template",
+    "description": "MSc. Information Studies (Data Science & Information Systems) Thesis Template - Univesrity of Amsterdam. Official guidelines: https://ww.uva.nl/en/programmes/masters/information-studies.html",
+    "License": "MIT",
+    "summary": "A LaTeX template for MSc. theses in Information Studies at the Univesity of Amsterdam. Supports both Data Science and Infromation Systems tracks with template for project proposals, thesis design documents, and final thesis. Based on official UvA thesis requiremensts.",
+    "version": "1.0",
+    "tags": [
+        "tehsis",
+        "university",
+        "amsterdam",
+        "uva",
+        "information-studies",
+        "data-science",
+        "information-systems",
+        "masters",
+        "msc"
+    ],
+    "engines": {
+        "latex": "pdflatex",
+        "bibtex": true
+    }
+}
