@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % mscthesis.cls
 % Thesis document definition adapted from multiple 
-% sources (ACM, ETH DISCO thesis) for the use of Univesity of Amsterdam
+% sources (ACM, ETH DISCO thesis) for the use of University of Amsterdam
 % Information Science and Data Science students
 % Adapted by Riccardo Fiorista (riccardo.fiorista@proton.me)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25,6 +25,11 @@
 \RequirePackage{setspace}
 \RequirePackage{booktabs}
 \RequirePackage[title]{appendix}
+\Requirepackage{longtable}
+\Requirepackage{multirow}
+\Requirepackage{makecell}
+\RequirePackage{booktabs}
+\Requirepackage{array}
 
 % GANNT Charts
 \RequirePackage{pgfgantt}
@@ -181,11 +186,11 @@
 \newcommand\thesisdate[1]{\date{#1}\gdef\@thesisdate{#1}}
 
 % Titlepage data
-\newcommand\frontpicturepath[1]{\gdef\@frontpicturepath{#1}}  % media/titlepage/sample_cover.jpeg
+\newcommand\frontpicturepath[1]{\gdef\@frontpicturepath{#1}}  % media/titlepage/The-best-PhD-thesis-and-dissertations-in-history.png
 \newcommand\firstcompanylogopath[1]{\gdef\@firstcompanylogopath{#1}}  % media/titlepage/sample_company_1.png
 \newcommand\secondcompanylogopath[1]{\gdef\@secondcompanylogopath{#1}}  % media/titlepage/sample_company_2.png
 %% Set default values
-\frontpicturepath{media/titlepage/sample-cover.jpeg}
+\frontpicturepath{media/titlepage/the-best-PhD-thesis-and-dissertations-in-history.png}
 \firstcompanylogopath{media/titlepage/ams-ds-logo.png}
 \secondcompanylogopath{media/titlepage/sample-company-1.png}
 

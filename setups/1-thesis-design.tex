@@ -1,9 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % setup.tex
 % Main tex file for setup and content collocation
-% For the use of University of Amsterdam
+% For the use of the University of Amsterdam
 % Information Systems and Data Science students
-% Adapted by Riccardo Fiorista (riccardo.fiorista@proton.me)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Options:
@@ -14,19 +14,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DOCUMENT METADATA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%University website : https://www.uva.nl/
+%University website: https://www.uva.nl/
 %Faculty: https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-science/faculty-of-science.html
-%Template maintainer : https://www.uva.nl/shared-content/programmas/en/masters/information-studies/information-studies.html
-%Offcial Guideline :
+%Template maintainer: https://www.uva.nl/shared-content/programmas/en/masters/information-studies/information-studies.html
+% Official Guideline :
 
-% Thesis related entries
+% Thesis-related entries
 \title{Thesis Design Template}
 %\subtitle{Submitted on: \textbf{DD-MM-YYYY}}
 
 % Author data
 \authorname{Your Name}
 \authoremail{your@student.mail}
-% ACM-sepecific entries
+% ACM-specific entries
 \affiliation{
     \institution{\thesisinstitution}
     \city{\thesiscity}
@@ -36,7 +36,7 @@
 % Supervisor data
 \authorname{UvA Supervisor Name}
 \authoremail{supervisor@uva.nl}
-% ACM-sepecific entries
+% ACM-specific entries
 \affiliation{
     \institution{\thesisinstitution}
     \city{\thesiscity}
@@ -54,7 +54,7 @@
 
 \maketitle
 
-% Sections; Try to stick to this setup
+% Sections: Try to stick to this setup
 \input{sections/1-thesis-design/1-introduction.tex}
 \input{sections/1-thesis-design/2-related-work.tex}
 \input{sections/1-thesis-design/3-methodology.tex}
@@ -63,7 +63,11 @@
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{bibliographies/references}
-
+\onecolumn
+\newpage
+\input{sections/2-thesis/GenAI Declaration Template}
+\newpage
+\twocolumn
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
